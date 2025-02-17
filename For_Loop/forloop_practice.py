@@ -11,5 +11,5 @@ total_cost = 0
 for j in costperitem:
     total_cost += j  # Accumulate the total cost
 
-print(costperitem)  # Print the cost per item
-print("Total cost:", total_cost)  # Print the total cost
+# Print only the total cost
+print(total_cost)  # This will print only the total cost
