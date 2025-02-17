@@ -6,10 +6,10 @@ costperitem = []  # Initialize an empty list to store the cost per item
 for i in range(len(costs)):
     costperitem.append(-1*costs[i] * items[i])  # Multiply corresponding items
 
-print(costperitem)
-#Store the sum of the item in a value
-setvalue = 0
+# Calculate the total cost by summing the costperitem list
+total_cost = 0
 for j in costperitem:
-    setvalue +=j
-print(setvalue)
+    total_cost += j  # Accumulate the total cost
 
+print(costperitem)  # Print the cost per item
+print("Total cost:", total_cost)  # Print the total cost
