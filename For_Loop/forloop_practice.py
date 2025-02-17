@@ -1,5 +1,5 @@
-costs = (5, 10, 3, 4)  # Create a tuple of costs
-items = (0, 1, 0, 1)  # Create a tuple of items packed or not
+costs = [5, 10, 3, 4]  # Create a list of costs
+items = [0, 1, 0, 1]  # Create a list of items packed or not
 costperitem = []  # Initialize an empty list to store the cost per item
 
 # Loop through both lists simultaneously
